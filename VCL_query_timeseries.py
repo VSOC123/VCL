@@ -43,7 +43,7 @@ end_date = "2024-01-30"
 vars_4d = ["wsp"]
 vars_3d = ["t2"]
 heights = [21.3, 80]
-api_key = "FnmVrwLwDgKcURyr1Ht9UkBVH7SFEjVu"
+api_key = "insert-your-key"
 
 response = timeseries_query(latitude, longitude, start_date, end_date, vars_4d, vars_3d, heights, api_key)
 print("Timeseries Query: ")
