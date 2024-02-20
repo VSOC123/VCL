@@ -14,7 +14,7 @@ def timeseries_area_query(min_longitude, max_longitude, min_latitude, max_latitu
     end_date (str): The end date of the timeseries data in YYYY-MM-DD format.
     vars_4d (list): List of 4D variables to query.
     vars_3d (list): List of 3D variables to query.
-    heights (list): List of heights to query.
+    heights (list): List of heights above ground to query.
     api_key (str): The API key for accessing the Vestas Climate Library API.
 
   Returns:
