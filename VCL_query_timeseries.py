@@ -40,9 +40,9 @@ latitude = 45
 longitude = 10
 start_date = "2010-01-01"
 end_date = "2024-01-30"
-vars_4d = ["wsp"]
-vars_3d = ["t2"]
-heights = [21.3, 80]
+vars_4d = ["wsp","wdir"]
+vars_3d = ["swdown","t2"]
+heights = [80,240]
 api_key = "insert-your-key"
 
 response = timeseries_query(latitude, longitude, start_date, end_date, vars_4d, vars_3d, heights, api_key)
